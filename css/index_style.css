@@ -1,0 +1,86 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 64px;
+}
+.nav{
+    height: 64px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 1.5rem;
+    padding-bottom: 0px;
+    padding-left: 1.5rem;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.mobile{
+    width: 8rem;
+    height: 1.25rem;
+    margin-bottom: 5px;
+}
+.nav-global-icon{
+    width: 1.75rem;
+    height: 1.75rem;
+}
+.nav-global-path{
+    fill: #fff;
+}
+.nav-menu-icon{
+    fill: #fff;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.main{
+    margin: auto;
+}
+.home-container{
+    margin: auto;
+}
+.home-app{
+    height: 99vh;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -39px;
+    background-size: 105%;
+    background-image: url(../img/f7b02ac53505a32e3265fcf0cb847dd3.jpg);
+}
+.home-logo{
+    height: 4.5rem;
+    position: absolute;
+    margin: auto;
+    top: 130px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.free-to-play{
+    width: 9.25rem;
+    height: 2.625rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-family: GFF Latin;
+    font-size: 14px;
+    background-color: #ffc400;
+    position: absolute;
+    margin: auto;
+    top: 410px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+@font-face{
+    font-family:GFF Latin;
+    src:url(https://dl.dir.freefiremobile.com/common/web_event/official2/dist/client/fonts/GFFLatinW05-Regular.7b8bcd3.woff);
+}
